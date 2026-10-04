@@ -1,0 +1,25 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# Python and local runtime data
+backend/.venv/
+backend/.venv-model/
+backend/data/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/**/*.pyc
+
+# Local model weights and downloaded datasets
+models/
+datasets/
+*.gguf
+*.safetensors
+
+# Local IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
